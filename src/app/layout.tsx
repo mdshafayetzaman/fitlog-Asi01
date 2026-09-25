@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-import Footer from './shared/footer'
-import Navbar from './shared/navbar'
 
 import { ToastContainer } from 'react-toastify'
-import PlanProvider from '../Context/PlanContext'
+import Navbar from './app/shared/navbar'
+import Footer from './app/shared/footer'
+
 
 export const metadata: Metadata = {
   title: 'FITLOG',

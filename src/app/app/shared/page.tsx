@@ -1,6 +1,6 @@
 'use client'
 
-import { PlanContext } from '@/Context/PlanContext'
+import { PlanContext } from '@/app/Context/PlanContext'
 import React, { useContext } from 'react'
 
 const PlanStats = () => {

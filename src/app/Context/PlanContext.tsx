@@ -1,7 +1,8 @@
 'use client'
 
-import { IType } from '@/app/lib/types'
+
 import React, { createContext, ReactNode, useState } from 'react'
+import { IType } from '../app/lib/types'
 
 type PlanContextType = {
   plan: IType[]

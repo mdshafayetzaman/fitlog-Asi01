@@ -5,7 +5,8 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useContext, useState } from 'react'
 import logo from '@/app/apps/assets/logo.png'
-import { PlanContext } from '@/Context/PlanContext'
+import { PlanContext } from '@/app/Context/PlanContext'
+
 
 const NAV_LINKS = [
   { href: '/#library', label: 'Workout', match: '/' },
